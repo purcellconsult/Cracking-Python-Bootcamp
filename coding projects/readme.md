@@ -52,7 +52,7 @@ Also, here's a test case so that you can verify that the code works:
     Enter second number 3
     10.0 % 3.0 = 1.0
     Square root: Enter number to take square root of 9
-    √ 9.0 = 9.0
+    √ 9.0 = 3.0
     Exponentiation. Enter a number for the 'base' 10
     Enter the power 3
     10.0 ^ 3 = 1000.0
