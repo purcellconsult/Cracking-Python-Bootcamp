@@ -16,7 +16,7 @@ addition
  - exponential
  - basic trigonometry: shows sin(), cos(), tan() results for a number
    entered both in radians and degrees. 
-   logarithm
+ - logarithm
 
 Since I didn't teach functions yet don't worry about making the code modular. Instead, just get the program to work. Here's some code to get you started:
 
