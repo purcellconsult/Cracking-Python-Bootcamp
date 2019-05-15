@@ -28,6 +28,6 @@ addition operation
 '''
 
 a1 = float(input('Addition. Enter first number '))
-a2 = float(input('Addition. Enter second number '))
+a2 = float(input('Enter second number '))
 a3 = a1 + a2
-print('The sum of ', a1, 'and ', a2, '=', a3)
+print(a1, '+', a2, '=', a3)
