@@ -93,7 +93,7 @@ To make the program pause for x amount of seconds use the sleep() function in th
 
   
 
-    from time import** sleep
+    from time import sleep
     sleep(3)
 
   
@@ -189,7 +189,7 @@ Check for edge cases. Therefore, the program should terminate if user enters a r
 
 How many rounds you want to play? 
 
-    Enter a number from 1-20: 21
+    Enter a number from 1-20: -1
     
     Invalid input. Exiting program...
     
