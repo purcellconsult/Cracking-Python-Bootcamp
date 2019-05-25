@@ -435,19 +435,18 @@ If you have calculated the fractional odds, then you can translate the fractiona
 ### American:
     
 The equation to convert negative American odds:
-    
 
-Negative American odds / (Negative American odds + 100) * 100 = implied probability
+Negative American odds / (Negative American odds + 100) * 100
     
 The equation to convert positive American odds:
     
-100 / (positive American odds + 100) * 100 = implied probability
+100 / (positive American odds + 100) * 100 
     
 ### Fractional odds:
     
 The formula to calculate implied probability from fractional odds:
     
-denominator / (denominator + numerator) * 100 = implied probability
+denominator / (denominator + numerator) * 100 
     
 ### Decimal odds:
     
