@@ -506,3 +506,151 @@ The formula for calculating implied probability from decimal odds is:
     Implied probability: 50.0
 
 
+## Project # 5: A Game of conditions: Text Based Fantasy Game in Python.
+
+This project requires the programmer to tap into their creative side. Who doesn’t like a good fantasy like _Game of Thrones_? Well, while few programmers posses the creative and literary prose of George R. R. Martin we can still create an interactive and fun text based game using python. This program allows the user to create their own fantasy kingdom filled with allies such as wizards and paladins and littered with obstacles such as your nemesis and rogues.
+
+## Skills required to complete this project:
+
+This project will test your knowledge of control flow and string manipulation and formatting in python. An auxiliary skill that you’ll harness is creativity.
+
+**Rule #1**: When the program runs it prompts the user for their sex which is either _male_ or _female_.
+
+**Rule #2**: The program will have two separate branches: one for the male story line, and another for the female version. The story line will be the same for each branch with the exception that the pronouns from each branch are gendered.
+
+**Rule # 3**: Every story need characters and a plot, and this story will be nonetheless. Below are the characters that the story may include:
+
+-   King
+    
+-   Queen
+    
+-   Paladin (a heroic knight)
+    
+-   Name of your kingdom
+    
+-   A wizard
+    
+-   A warrior
+    
+
+  
+  Every story needs some bad guys. Here are a list of characters that the story may include:
+
+-   Main nemesis
+    
+-   A thief
+    
+-   A sorcerer's name
+    
+-   A rogue
+    
+
+ Then, you need some tension to stir up the plot. Therefore the following elements may be implemented into the story:
+
+-   The name of a war.
+    
+-   The duration for how long it lasted.
+    
+-   The outcome of the war and how all of the players played a role in it.  
+      
+    
+**Rule # 4**: The program should ask the user in a _y_ or _n_ format if they have allies and if they have enemies. Their answer should play a role on the outcome of the game. If the user doesn’t have allies and they have enemies, how will that effect the outcome of the war? If the user have allies and no enemies then again, how will that effect the outcome of the war? Lastly, what if they had no enemies and no allies?
+
+**Rule # 5**: The user input should be normalized so that when the user enters input such as a capital Y, it will be lower cased or capitalized for consistency. This is important so when you need to do conditional checks the case of the user input won’t matter against your check. Also, the names of the characters entered via the user input should be normalized as well. All the names should be capitalized including the name of the war as well for consistency.
+
+**Rule #6**: Once you’re done writing this script, upload it to your GitHub and email a friend to play the game. Walk them through the steps of installing python on their platform, and then provide them instructions on how to run the script via the python interpreter.
+
+### Sample Input/Output #1. The male story line.
+
+    Enter your gender: "m" for male, "f" for female. m
+    
+    Enter your name: Voltron
+    
+    What's the name of your queen? Jacqueline
+    
+    What's the name of your kingdom? Aephegia
+    
+    Do you have allies? Enter "y" for yes or "n" for no. y
+    
+    Do you have enemies? Enter "y" for yes or "n" for no. y
+    
+    Enter your paladin's name Vasite
+    
+    Enter your wizard's name costa
+    
+    Enter your warrior's name Tepasta
+    
+    Voltron got enemies, got a lot of enemies
+    
+    Enter your villian's name Chaewudor
+    
+    What's the name of your war? bizarre
+    
+    How many years did the war last? 20
+    
+    Enter your thief's name Aidinethen
+    
+    Enter evil sorcerer's name Ewupeocan
+    
+    Enter rogue's name Ysalt
+
+  Output:
+
+    The great Voltron and his queen Jacqueline peacefully ruled the
+    kingdom of Aephegia. However, a great war called Bizarre erupted.
+    Voltron's nemesis Chaewudor invaded his kingdom. With the help of
+    Aidinethen, Ewupeocan, and Ysalt, Chaewudor pillaged their land, stole
+    precious resources, and brutally attacked their villagers.
+           
+    King Voltron and Queen Jacqueline with the help of Vasite, Costa, and Tepasta valiantly fought back and defeated Chaewudor after 20 years of fierce fighting. Order was finally restored and everyone in their kingdom
+    lived happily ever after :-).
+
+  
+
+## Sample Input/Output #2: The female story line.
+
+  
+
+    Enter your gender: "m" for male, "f" for female.f
+    
+    Enter your name: Jacqueline
+    
+    What's the name of your king? Voltron
+    
+    What's the name of your kingdom? Aephegia
+    
+    Do you have allies? Enter "y" for yes or "n" for no. y
+    
+    Do you have enemies? Enter "y" for yes or "n" for no. y
+    
+    Enter your paladin's name Vasite
+    
+    Enter your wizard's name costa
+    
+    Enter your warrior's name tepasta
+    
+    Jacqueline got enemies, got a lot of enemies
+    
+    Enter your villian's name Chaewudor
+    
+    What's the name of your war? bizzare
+    
+    How many years did the war last? 20
+    
+    Enter your thief's name aidinethen
+    
+    Enter evil sorcerer's name ewupeocan
+    
+    Enter rogue's name ysalt
+
+  
+Output:
+
+    The great Jacqueline and her king Voltron peacefully ruled the kingdom of
+    
+    Aephegia. However, a great war called Bizzare erupted. Jacqueline's nemesis Chaewudor invaded her kingdom. With the help of Aidinethen, Ewupeocan, and Ysalt, Chaewudor pillaged their land,
+    
+    stole precious resources, and brutally attacked their villagers.
+    
+    Queen Jacqueline and King Voltron with the help of Vasite, Costa, and Tepasta valiantly fought back and defeated Chaewudor after 20 years of fierce fighting. Order was finally restored and everyone in their kingdom lived happily ever after :-).
+
