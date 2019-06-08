@@ -1,8 +1,8 @@
-#####################################
+######################################
 # A simple dice rolling simulator.
 # A simple program that models dice
 # rolling in python.
-# Program asks user to enter
+#
 #
 #
 #
@@ -10,7 +10,7 @@
 # By Doug Purcell
 # http://www.purcellconsult.com
 #
-######################################
+#######################################
 
 
 from random import randint
@@ -23,7 +23,8 @@ if number_of_rolls < 0 or number_of_rolls > 20:
     print('Invalid input. Exiting program...')
     exit(0)
 
-correct_guesses = 0
+correct_guesses, tries = 0, 0
+
 dice_numbers = {
     1: 0,
     2: 0,
@@ -33,8 +34,7 @@ dice_numbers = {
     6: 0,
 }
 
-tries = 1
-while tries < number_of_rolls + 1:
+while tries < number_of_rolls:
 
     print('round:', tries)
     your_guess = int(input('Roll the dice. Enter a number from 1-6... '))
@@ -50,7 +50,6 @@ while tries < number_of_rolls + 1:
         correct_guesses += 1
     else:
         print('Better luck next time. Dice landed on', dice_result)
-    tries += 1
 
     if dice_result == 1:
         dice_numbers[1] += 1
@@ -64,8 +63,9 @@ while tries < number_of_rolls + 1:
         dice_numbers[5] += 1
     elif dice_result == 6:
         dice_numbers[6] += 1
+    tries += 1
 
-    if tries - 1 == number_of_rolls:
+    if tries == number_of_rolls:
         print('Dice landed on 1:', dice_numbers[1], 'times')
         print('Dice landed on 2:', dice_numbers[2], 'times')
         print('Dice landed on 3:', dice_numbers[3], 'times')
@@ -73,4 +73,4 @@ while tries < number_of_rolls + 1:
         print('Dice landed on 5:', dice_numbers[5], 'times')
         print('Dice landed on 6:', dice_numbers[6], 'times')
         print('Correct guesses: ', correct_guesses)
-        print('Average of correct guesses', correct_guesses / number_of_rolls)
+        print('Average of correct guesses: {}%'.format(round((correct_guesses / number_of_rolls) * 100), 3))
