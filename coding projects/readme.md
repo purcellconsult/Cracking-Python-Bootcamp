@@ -653,4 +653,36 @@ Output:
     stole precious resources, and brutally attacked their villagers.
     
     Queen Jacqueline and King Voltron with the help of Vasite, Costa, and Tepasta valiantly fought back and defeated Chaewudor after 20 years of fierce fighting. Order was finally restored and everyone in their kingdom lived happily ever after :-).
+    
+    
+    
+
+
+## Project # 6: The California Lottery
+    
+All but six States in the US have state lotteries so it’s no secret that it’s big business. How big? According to the CNN article _Lotteries: America’s $70 Billion Shame_’ by Derek Thompson, Americans spent $70 billion on lotto games in 2014. What’s shocking is  that’s more than what Americans in all 50 states spent on sports tickets, books, video games, movie tickets, and recorded music sales combined.
+
+That's a big deal, and this project is not to convince you to lobby against the lottery. Instead, it’s going to help you hone your python programming skills while also shedding light on the odds you have at winning the lottery… even the ones with a smaller prize. We’re going to model the Daily 3 and Daily 4 lotteries in a simple script.
+    
+To learn the rules of the various California lotteries view the website:[https://www.lotterypost.com/results/ca](https://www.lotterypost.com/results/ca)
+    
+
+## The rules of Daily 3 and 4:
+    
+The Daily 3 lotto allows the player to pick any three numbers within the range of 0-9. In order to win the player must pick the correct number and must also get the ordering right. Therefore, if the Daily three numbers are 5, 9, and 2 then the user must enter the following numbers in the following order:
+    
+      [5, 9, 2]
+    
+It’s really simple, and modeling the simulation of the three numbers in python is also simple. We can use the randint() function from random to do this. For example, if we want to pick a random number then we can do something like the following:
+
+        
+    >>> from random import randint
+        
+    >>> randint(0, 9)
+        
+    4
+    
+The Daily 4 rules are exactly the same except it has four numbers instead of three. Write a python script that models the Daily 3 and Daily 4 in the California Lottery. After the user enters in their guess, the program should display a message letting the user know if they won or not. The winning numbers should also be displayed which should be stored in a list.
+
+After you get the program to work try playing it 10 times. What can you conclude about winning the lottery from your own script?
 
