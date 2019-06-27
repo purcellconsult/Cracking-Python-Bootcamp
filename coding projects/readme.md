@@ -690,15 +690,15 @@ After you get the program to work try playing it 10 times. What can you conclude
 
 # Project # 7: _Stat-tastic!_
 
-This  project helps you to practice creating functions by coding common statistic formulas in python. Here’s  the functions that you will code:_
+This  project helps you to practice creating functions by coding common statistic formulas in python. Here’s  the functions that you will code:
 
--   _Total: Gets the total count of data in a set._
+-   Total: Gets the total count of data in a set.
     
--   _Summation: Sums all of the data in a set._
+-   Summation: Sums all of the data in a set.
     
 -   _Sample mean: Computes the average._ 
     
--   _Sample standard deviation: Computes the average of the squared differences from the mean._ 
+-   _Sample standard deviation: Computes the average of the squared differences from the mean.
     
 -   _Median: The middle value._ 
     
@@ -709,7 +709,7 @@ This  project helps you to practice creating functions by coding common statisti
 
 ## Need a Quick Overview of Statistics?
 
-Read this article from Statistics Solutions: [https://www.statisticssolutions.com/common-statistical-formulas](https://www.statisticssolutions.com/common-statistical-formulas) 
+Read this article from [https://www.statisticssolutions.com/common-statistical-formulas](Statistics Solutions.) 
 
 ## Dummy Data to work with
 
