@@ -709,7 +709,7 @@ This  project helps you to practice creating functions by coding common statisti
 
 ## Need a Quick Overview of Statistics?
 
-Read this article from [Statistics Solutions].(https://www.statisticssolutions.com/common-statistical-formulas) 
+Read this article from [https://www.statisticssolutions.com/common-statistical-formulas](Statistics Solutions) .
 
 ## Dummy Data to work with
 
