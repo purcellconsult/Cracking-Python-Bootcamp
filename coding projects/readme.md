@@ -686,3 +686,64 @@ The Daily 4 rules are exactly the same except it has four numbers instead of thr
 
 After you get the program to work try playing it 10 times. What can you conclude about winning the lottery from your own script?
 
+
+
+# Project # 7: _Stat-tastic!_
+
+This  project helps you to practice creating functions by coding common statistic formulas in python. Here’s  the functions that you will code:_
+
+-   _Total: Gets the total count of data in a set._
+    
+-   _Summation: Sums all of the data in a set._
+    
+-   _Sample mean: Computes the average._ 
+    
+-   _Sample standard deviation: Computes the average of the squared differences from the mean._ 
+    
+-   _Median: The middle value._ 
+    
+-   _Min: The smallest number in the set._
+    
+-   _Max: The largest number in the set._ 
+    
+
+## Need a Quick Overview of Statistics?
+
+Read this article from Statistics Solutions: [https://www.statisticssolutions.com/common-statistical-formulas](https://www.statisticssolutions.com/common-statistical-formulas) 
+
+## Dummy Data to work with
+
+In order to test your functions you need a dummy data set to work with. Use the file of numbers here:_ [https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset](https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset)
+
+Here’s the results you should expect from each function call:_
+
+-   _total() → 1000_
+    
+-   _summation() → 51404_
+    
+-   _sample_mean() → 51.404_
+    
+-   _sample_variance() → 834.4034034034034_
+    
+-   _sample_standard_dev() → 28.886041670734386_
+    
+-   _median() → 53_
+    
+-   _min() → 1_
+    
+-   _max() → 100_
+    
+
+## How to open files in Python
+
+Use the with statement:_ [https://docs.python.org/3/reference/compound_stmts.html#the-with-statement](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement)
+
+    DATA = 'sample_dataset'
+    with open(DATA) as file:
+    for line in file:
+        pass
+         
+   Note,  for this project don’t use the built in statistics module: [https://docs.python.org/3/library/statistics.html](https://docs.python.org/3/library/statistics.html)
+
+That won’t make the exercise interesting! Also, don’t use the builtin max, min, or sorted functions from the python library: [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
+
