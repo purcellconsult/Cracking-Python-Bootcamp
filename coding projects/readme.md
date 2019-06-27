@@ -690,53 +690,53 @@ After you get the program to work try playing it 10 times. What can you conclude
 
 # Project # 7: _Stat-tastic!_
 
-This  project helps you to practice creating functions by coding common statistic formulas in python. Here’s  the functions that you will code:
+This  project helps you to practice creating functions by coding common statistic formulas in python. Here's the functions that you will code:
 
 -   Total: Gets the total count of data in a set.
     
 -   Summation: Sums all of the data in a set.
     
--   _Sample mean: Computes the average._ 
+-   Sample mean: Computes the average.
     
--   _Sample standard deviation: Computes the average of the squared differences from the mean.
+-   Sample standard deviation: Computes the average of the squared differences from the mean.
     
--   _Median: The middle value._ 
+-   Median: The middle value.
     
--   _Min: The smallest number in the set._
+-   Min: The smallest number in the set.
     
--   _Max: The largest number in the set._ 
+-   Max: The largest number in the set.
     
 
 ## Need a Quick Overview of Statistics?
 
-Read this article from [https://www.statisticssolutions.com/common-statistical-formulas](Statistics Solutions.) 
+Read this article from [Statistics Solutions](https://www.statisticssolutions.com/common-statistical-formulas) 
 
 ## Dummy Data to work with
 
-In order to test your functions you need a dummy data set to work with. Use the file of numbers here:_ [https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset](https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset)
+In order to test your functions you need a dummy data set to work with. Use the file of numbers here: [https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset](https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset)
 
-Here’s the results you should expect from each function call:_
+Here’s the results you should expect from each function call:
 
--   _total() → 1000_
+-   total() → 1000
     
--   _summation() → 51404_
+-   summation() → 51404
     
--   _sample_mean() → 51.404_
+-   sample_mean() → 51.404
     
--   _sample_variance() → 834.4034034034034_
+-   sample_variance() → 834.4034034034034
     
--   _sample_standard_dev() → 28.886041670734386_
+-   sample_standard_dev() → 28.886041670734386
     
--   _median() → 53_
+-   median() → 53
     
--   _min() → 1_
+-   min() → 1
     
--   _max() → 100_
+-   max() → 100
     
 
 ## How to open files in Python
 
-Use the with statement:_ [https://docs.python.org/3/reference/compound_stmts.html#the-with-statement](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement)
+Use the with statement: [https://docs.python.org/3/reference/compound_stmts.html#the-with-statement](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement)
 
     DATA = 'sample_dataset'
     with open(DATA) as file:
