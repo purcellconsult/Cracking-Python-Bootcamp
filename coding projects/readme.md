@@ -736,7 +736,7 @@ Here’s the results you should expect from each function call:
 
 ## How to open files in Python
 
-Use the [https://docs.python.org/3/reference/compound_stmts.html#the-with-statement](with statement in python).
+Use the [with statement in python](https://docs.python.org/3/reference/compound_stmts.html#the-with-statement).
 
 An example of how to use it is listed below: 
 
