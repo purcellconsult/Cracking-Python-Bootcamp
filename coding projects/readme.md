@@ -713,7 +713,7 @@ Read this article from [Statistics Solutions].(https://www.statisticssolutions.c
 
 ## Dummy Data to work with
 
-In order to test your functions you need a dummy data set to work with. [https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset](Use the dataset here).
+In order to test your functions you need a dummy data set to work with.[Use the dataset here].(https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset).
 
 Here’s the results you should expect from each function call:
 
