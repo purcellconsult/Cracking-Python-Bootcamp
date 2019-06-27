@@ -709,11 +709,11 @@ This  project helps you to practice creating functions by coding common statisti
 
 ## Need a Quick Overview of Statistics?
 
-Read this article from [https://www.statisticssolutions.com/common-statistical-formulas](Statistics Solutions) .
+Read this article from [Statistics Solutions](https://www.statisticssolutions.com/common-statistical-formulas) .
 
 ## Dummy Data to work with
 
-In order to test your functions you need a dummy data set to work with.[Use the dataset here].(https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset).
+In order to test your functions you need a dummy data set to work with.[Use the dataset here](https://github.com/purcellconsult/Master-Python-3-Course-/blob/master/coding%20projects/sample_dataset).
 
 Here’s the results you should expect from each function call:
 
@@ -745,7 +745,7 @@ An example of how to use it is listed below:
     for line in file:
         pass
          
-Note,  for this project don’t use the built in [https://docs.python.org/3/library/statistics.html](statistics module).
+Note,  for this project don’t use the built in [statistics module](https://docs.python.org/3/library/statistics.html).
 
-Using it won’t make the exercise interesting! Also, don’t use the builtin max, min, or sorted functions from the python library: [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
+Using it won’t make the exercise interesting! Also, don’t use the builtin max, min, or sorted functions from the [python library](https://docs.python.org/3/library/functions.html).
 
