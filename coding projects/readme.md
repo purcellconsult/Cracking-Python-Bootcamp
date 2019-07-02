@@ -749,3 +749,31 @@ Note,  for this project don’t use the built in [statistics module](https://doc
 
 Using it won’t make the exercise interesting! Also, don’t use the builtin max, min, or sorted functions from the [python library](https://docs.python.org/3/library/functions.html).
 
+
+## Project #8:  Unit Testing Lab
+
+The goal of this project is simple, to get you comfortable with writing unit tests in python. There’s many different options for crafting tests in python such as unittest, pytest, pylint, nose, and doctest. However, in this project we’ll simply use the built in unittest module in python. Below are the details of the project. Write unit tests for the various builtin functions in python:
+
+    • abs()
+    • bin()
+    • bool()
+    • callable()
+    • chr()
+    • dict()
+    • divmod()
+    • enumerate()
+    • float()
+    • format()
+    • hex()
+    • int()
+    • len()
+    • list()
+    • max()
+    • min()
+    • next()
+    • oct()
+    • sorted()
+    • sum()
+
+Make sure to use at least 10 of the assert methods from the unittest module:https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
+
