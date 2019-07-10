@@ -783,9 +783,9 @@ Object oriented programming is another paradigm that’s allowed in the python p
 
 The focal point of object oriented programming is to model real world objects, so let’s utilize python to model a virtual ATM machine. Here are the functionalities that we’ll implement in a class called ATM:
 
-**deposit()**: Adds money to an account. The maximum amount the customer can add is $1000 USD, and there should be a condition in place that checks for edge cases. For example, a ValueError() exception should be raised if a customer tries to deposit a negative amount.
+**deposit()**: Adds money to an account. The maximum amount the customer can add is $1000 USD, and there should be a condition in place that checks for edge cases. For example, a ValueError() exception should be raised if a customer tries to deposit a negative amount. 
   
-**withdrawal()**: Withdraws money from an account. The maximum amount that can be withdrew is $500, and like with the deposit method, edge cases should be checked.
+**withdrawal()**: Withdraws money from an account. The maximum amount that can be withdrew is $500, and like with the deposit method, edge cases should be checked. To generate timestamps for the deposit() and withdrawl() methods, use the builtin datetime class: https://docs.python.org/3/library/datetime.html
 
 **check_balance()**: Returns the current balance in the account.
 
