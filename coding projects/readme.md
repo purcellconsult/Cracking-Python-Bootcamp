@@ -802,8 +802,9 @@ The focal point of object oriented programming is to model real world objects, s
   
 YOUR_NAME is the name of the customer. 
 
-Here’s some sample output of the program:
-        jack = Atm('Jack', '3282')  
+Here's some sample output of the program:
+
+ jack = Atm('Jack', '3282')  
         jack.deposit(100)  
         print(jack.get_transactions())  
         jack.deposit(200)  
@@ -827,4 +828,4 @@ Here’s some sample output of the program:
     3282
     Jack
 
-
+ 
