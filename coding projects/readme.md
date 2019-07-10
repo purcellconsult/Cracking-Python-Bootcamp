@@ -800,11 +800,8 @@ The focal point of object oriented programming is to model real world objects, s
 **__init__()**: The init method will only require that the customer enter in their pin number. The program needs to include code that validates that the pin is a correct one. Once entered, the program will ask the customer for their name and then prints the following message: **Welcome to Your Virtual ATM** **YOUR_NAME**
 
   
-YOUR_NAME is the name of the customer. 
 
-Here's some sample output of the program:
-
- jack = Atm('Jack', '3282')  
+        jack = Atm('Jack', '3282')  
         jack.deposit(100)  
         print(jack.get_transactions())  
         jack.deposit(200)  
@@ -827,5 +824,6 @@ Here's some sample output of the program:
     {'withdrawal': ['2019-07-09 23:15:14.905497', -100]}
     3282
     Jack
+
 
  
