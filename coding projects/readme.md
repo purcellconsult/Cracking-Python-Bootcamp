@@ -824,6 +824,18 @@ The focal point of object oriented programming is to model real world objects, s
     {'withdrawal': ['2019-07-09 23:15:14.905497', -100]}
     3282
     Jack
+    
+    
+    jill = Atm('Jill', '29321')
+    
+    What's your name? jill
+    Welcome to Your Virtual ATM Jill 
+     Traceback (most recent call last):
+       File "/home/doug/PycharmProjects/master_python_course/coding_projects/atm_amchine.py", line 118, in <module>
+    jill = Atm('Jill', '29321')
+     File "/home/doug/PycharmProjects/master_python_course/coding_projects/atm_amchine.py", line 40, in __init__
+    raise ValueError('Invalid Pin Number')
+     ValueError: Invalid Pin Number
 
 
  
