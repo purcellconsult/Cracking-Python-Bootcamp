@@ -837,6 +837,19 @@ The focal point of object oriented programming is to model real world objects, s
      File "/home/doug/PycharmProjects/master_python_course/coding_projects/atm_amchine.py", line 40, in __init__
     raise ValueError('Invalid Pin Number')
      ValueError: Invalid Pin Number
+     
+     henry = Atm('henry', '3821')
+     henry.deposit(1000)
+     print(henry.get_transactions())
+     henry.withdraw(2000)
+     
+     What's your name? henry
+     Welcome to Your Virtual ATM Henry 
+     {'transaction': ['2019-07-09 23:30:33.705834', 1000]}
+     Insufficient funds in account
+     
+     
+     
 
 
  
