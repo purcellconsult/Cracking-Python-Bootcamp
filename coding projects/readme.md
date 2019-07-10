@@ -803,18 +803,28 @@ The focal point of object oriented programming is to model real world objects, s
 YOUR_NAME is the name of the customer. 
 
 Here’s some sample output of the program:
+        jack = Atm('Jack', '3282')  
+        jack.deposit(100)  
+        print(jack.get_transactions())  
+        jack.deposit(200)  
+        print(jack.get_transactions())  
+        jack.withdraw(10)  
+        print(jack.get_withdrawals())  
+        jack.deposit(100)  
+        print(jack.get_transactions())  
+        jack.withdraw(100)  
+        print(jack.get_withdrawals())  
+        print(jack.get_pin())  
+        print(jack.get_name())
+    
+    What's your name? jack
+    Welcome to Your Virtual ATM Jack 
+    {'transaction': ['2019-07-09 23:15:14.905258', 100]}
+    {'transaction': ['2019-07-09 23:15:14.905351', 200]}
+    {'withdrawal': ['2019-07-09 23:15:14.905404', -10]}
+    {'transaction': ['2019-07-09 23:15:14.905452', 100]}
+    {'withdrawal': ['2019-07-09 23:15:14.905497', -100]}
+    3282
+    Jack
 
-    jack = Atm('Jack', '3282')  
-    jack.deposit(100)  
-    print(jack.get_transactions())  
-    jack.deposit(200)  
-    print(jack.get_transactions())  
-    jack.withdraw(10)  
-    print(jack.get_withdrawals())  
-    jack.deposit(100)  
-    print(jack.get_transactions())  
-    jack.withdraw(100)  
-    print(jack.get_withdrawals())  
-    print(jack.get_pin())  
-    print(jack.get_name())
 
