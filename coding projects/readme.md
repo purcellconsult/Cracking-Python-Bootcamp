@@ -777,3 +777,28 @@ The goal of this project is simple, to get you comfortable with writing unit tes
 
 Make sure to use at least 10 of the assert methods from the unittest module:https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
+## Project #9: The Python Virtual ATM Machine
+
+Object oriented programming is another paradigm that’s allowed in the python programming language. Most people are familiar with ATMs which are those little machines that we can put our card into, type in a pin, and then do various functions such as _get money._
+
+The focal point of object oriented programming is to model real world objects, so let’s utilize python to model a virtual ATM machine. Here are the functionalities that we’ll implement in a class called ATM:
+
+**deposit()**: Adds money to an account. The maximum amount the customer can add is $1000 USD, and there should be a condition in place that checks for edge cases. For example, a ValueError() exception should be raised if a customer tries to deposit a negative amount.
+  
+**withdrawal()**: Withdraws money from an account. The maximum amount that can be withdrew is $500, and like with the deposit method, edge cases should be checked.
+
+**check_balance()**: Returns the current balance in the account.
+
+**get_transactions()**: Returns the recent transaction with the time stamp appended to it.
+
+**get_withdrawals()**: Returns the recent withdrawal with the time stamp appended to it.
+
+**get_name()**: Returns the name of the customer.
+
+**pin()**: Returns the pin of the customer.
+
+**__init__()**: The init method will only require that the customer enter in their pin number. The program needs to include code that validates that the pin is a correct one. Once entered, the program will ask the customer for their name and then prints the following message: **Welcome to Your Virtual ATM** **YOUR_NAME**
+
+  
+YOUR_NAME is the name of the customer. Here’s some sample output of the program:
+
