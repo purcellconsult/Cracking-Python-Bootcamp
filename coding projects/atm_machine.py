@@ -8,7 +8,7 @@
 # withdrawal: withdraws money from an account.
 # check_balance: check the current account balance.
 # get_transactions: shows the date and amount of recent transaction.
-# get_withdrawals:
+# get_withdrawals: returns the cash.
 # pin: get your pin number.
 # get_name: get the customer's name.
 #
