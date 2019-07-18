@@ -850,6 +850,62 @@ The focal point of object oriented programming is to model real world objects, s
      
      
      
+## Project 10: Regex Lab 
+
+### Phone Number Validator
+
+Create a function that includes a regular expression that validates if a number is accurate or not. The regex should check for a number in the following format:
+
+> ###-###-####
+
+Sample input and output is listed below: 
+
+Input:
+
+    general_number('263-328-8372') general_number('263-
+    
+    328-83722')
+    general_number('2633288372') general_number('263-328-8372')
+
+Output:
+
+    Verified Number!
+    Doesn't validate!
+    Doesn't validate!
+    Verified Number!
+
+### Social Security Number Validator
+
+In the United States a Social Security Number (SSN) is a 9 digit number that has become the de facto national identification number for taxation and other purposes. Write a function that includes a regex which verifies that the user input is a valid social security number. Below is sample input/output for the function: 
+
+Input:
+
+    ssn_checker('928-382')
+    ssn_checker('728-23-9272')
+    ssn_checker('728239272')
+    ssn_checker('542-50-4814')
+    ssn_checker('63236638232')
+
+Output:
+
+    928-382 is an invalid social security number
+    728-23-9272 is a valid social security number
+    728239272 is a valid social security number
+    542-50-4814 is a valid social security number
+    63236638232 is an invalid social security number
+
+### Email Address Validator
+
+Write a regex that would validate all email addresses from every type of website (.com, info, net) and also every top-level domain  (us, ca, in, de) in existence. Try and get your regex to pass as many of the test cases as possible on the [Microsoft Developer Blog](https://blogs.msdn.microsoft.com/testing123/2009/02/06/email-address-test-cases/).
+
+### Parse Your Favorite Song Lyrics
+
+Music makes the world goes around, and luckily we can access a bunch of lyrics from lyrics.com. In this exercise write a function that includes a regex to parse your favorite song for the number of vowels and constants. If you want a default song to parse then use Imagine by John Lennon. 
+
+### Parse The Ferrari Wikipedia Page 
+
+Using the requests and regex modules, access the [Ferrari Wikipedia page](https://en.wikipedia.org/wiki/Ferrari) and then return the total count of the term Ferrari. Assume that the matches are case insensitive. 
+
 
 
  
