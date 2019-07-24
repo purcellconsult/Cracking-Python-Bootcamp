@@ -908,4 +908,53 @@ Using the requests and regex modules, access the [Ferrari Wikipedia page](https:
 
 
 
+## Project 11: A Web Parser for Your State's Government's Website
+
+Using requests and bs4 the web scraper should parse the website for the following details:
+
+-   header data
+    
+    -   get ALL anchor text in the header
+        
+    -   get ALL urls in the header
+        
+-   footer data:
+    
+    -   get ALL anchor text in the footer
+        
+    -   get ALL urls in the footer
+        
+-   All headings h1-h6. If a heading doesn’t exist the message ‘heading doesn’t exist’ should be printed.
+    
+-   All paragraph text from the site.
+    
+-   ALL links to the images. I.e,  < img src="https://california.azureedge.net/cdt/CAgovPortal/images/Uploads/service-Find-State-Park.jpg" > is no bueno. Instead, the following is needed: https://california.azureedge.net/cdt/CAgovPortal/images/Uploads/service-Find-State-Park.jpg
+    
+-   ALL social media links. Yes, there may be overlap with the links that’s generated, but the goal is to also parse specifically for just social media links.
+    
+-   If the site has embedded social media such as embedded tweets, then scrape them as well.
+    
+You can format the output in simple print statement. For example, here’s some sample data written for the website: [https://www.ca.gov](https://www.ca.gov/)
+
+
+    ----- header anchor text -----
+    Getting Services
+    Doing Business
+    Working
+    Learning
+    Living
+    Visiting
+    Government
+    
+    ----- header links -----
+    https://www.ca.gov/services/
+    https://www.ca.gov/doingbusiness/
+    https://www.ca.gov/working/
+    https://www.ca.gov/learning/
+    https://www.ca.gov/living/
+    https://www.ca.gov/visiting/
+    https://www.ca.gov/government/
+    javascript:;
+
+At the end of this project make a list of the top 3 things you’ve learned about website development from learning web parsing.
  
