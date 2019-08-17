@@ -8,9 +8,6 @@
 # iteration tools in python such as for and
 # while loops
 #
-# If new to python read the accompanying powerpoint
-# to learn more about the theory: [insert link]
-#
 #
 # To run file, type: python control_and_repeat.py
 #
