@@ -15,7 +15,7 @@
 # for the purpose of working on it with various algorithms.
 # Data structures are popular interview questions during
 # technical exams at software companies.
-# It's important to pick the proper data structure for the the
+# It's important to pick the proper data structure for the
 # particular problem you're working on. An ill suited data structure
 # could lead to poor performing programs.
 # python has 4 builtin data structures, and many more that can
