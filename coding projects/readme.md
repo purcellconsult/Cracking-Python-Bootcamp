@@ -3,7 +3,7 @@
 The massive headline pretty much said it all. Anyhoo, below is a comprehensive summary of all of the ~~cool~~ coding projects that accompanies the Master Python course.
 
 
-# Project #1: Text Based Calculator
+# Text Based Calculator
 
 In this project you'll build a text based calculator that emulates the functionality of a scientific calculator. Below are the features that should be emulated:
 addition
@@ -72,7 +72,7 @@ Once done, name the program *py_text_calculator.py* and upload to your GitHub ac
 
 
 
-## Project #2: The Dice Simulator
+## The Dice Simulator
     
 Write a program that asks the user to enter the number of games that they want to play. This number should be within the range of 1-20. Once this number is entered the user will then be asked to select a number within the range of 1-6 which models the different sides of a dice.
 
@@ -207,7 +207,7 @@ How many rounds you want to play?
     Process finished with exit code 0
 
   
-  ## Project #3: The Secret Number
+  ## The Secret Number
     
 This is a simple number guessing game. The purpose of this game is to guess a number within the range of 1-100. Depending on the mode the user selects the program will execute two separate branches.
 
@@ -410,7 +410,7 @@ If the user doesn’t guess the secret number within the allocated number of cha
   
 This way it doesn’t matter if the user enters uppercase or lowercase letters.
 
-  ## Project #4: Viva Las Vegas: Sports Betting Calculator
+  ## Viva Las Vegas: Sports Betting Calculator
     
 Las Vegas, aka Sin City is a city that’ quite unlike any other. A now desert oasis that was once a front to a shady underworld. Not only can you get married at a wedding chapel, feast on cuisines by world class chefs, and party at one of the pricey and crowded super clubs, you can also lose all of your money as well. We’re going to explore one of the features in Vegas that attracts visitors worldwide which is the gaming, and more explicitly, sports betting.
     
@@ -506,7 +506,7 @@ The formula for calculating implied probability from decimal odds is:
     Implied probability: 50.0
 
 
-## Project # 5: A Game of conditions: Text Based Fantasy Game in Python.
+## A Game of conditions: Text Based Fantasy Game in Python.
 
 This project requires the programmer to tap into their creative side. Who doesn’t like a good fantasy like _Game of Thrones_? Well, while few programmers posses the creative and literary prose of George R. R. Martin we can still create an interactive and fun text based game using python. This program allows the user to create their own fantasy kingdom filled with allies such as wizards and paladins and littered with obstacles such as your nemesis and rogues.
 
@@ -658,7 +658,7 @@ Output:
     
 
 
-## Project # 6: The California Lottery
+## The California Lottery
     
 All but six States in the US have state lotteries so it’s no secret that it’s big business. How big? According to the CNN article _Lotteries: America’s $70 Billion Shame_’ by Derek Thompson, Americans spent $70 billion on lotto games in 2014. What’s shocking is  that’s more than what Americans in all 50 states spent on sports tickets, books, video games, movie tickets, and recorded music sales combined.
 
@@ -688,7 +688,7 @@ After you get the program to work try playing it 10 times. What can you conclude
 
 
 
-# Project # 7: _Stat-tastic!_
+# _Stat-tastic!_
 
 This  project helps you to practice creating functions by coding common statistic formulas in python. Here's the functions that you will code:
 
@@ -750,7 +750,7 @@ Note,  for this project don’t use the built in [statistics module](https://doc
 Using it won’t make the exercise interesting! Also, don’t use the builtin max, min, or sorted functions from the [python library](https://docs.python.org/3/library/functions.html).
 
 
-## Project #8:  Unit Testing Lab
+## Unit Testing Lab
 
 The goal of this project is simple, to get you comfortable with writing unit tests in python. There’s many different options for crafting tests in python such as unittest, pytest, pylint, nose, and doctest. However, in this project we’ll simply use the built in unittest module in python. Below are the details of the project. Write unit tests for the various builtin functions in python:
 
@@ -777,7 +777,7 @@ The goal of this project is simple, to get you comfortable with writing unit tes
 
 Make sure to use at least 10 of the assert methods from the unittest module:https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
-## Project #9: The Python Virtual ATM Machine
+## The Python Virtual ATM Machine
 
 Object oriented programming is another paradigm that’s allowed in the python programming language. Most people are familiar with ATMs which are those little machines that we can put our card into, type in a pin, and then do various functions such as _get money._
 
@@ -850,7 +850,7 @@ The focal point of object oriented programming is to model real world objects, s
      
      
      
-## Project 10: Regex Lab 
+## Regex Lab 
 
 ### Phone Number Validator
 
@@ -908,7 +908,7 @@ Using the requests and regex modules, access the [Ferrari Wikipedia page](https:
 
 
 
-## Project 11: A Web Parser for Your State's Government's Website
+## A Web Parser for Your State's Government's Website
 
 Using requests and bs4 the web scraper should parse the website for the following details:
 
@@ -957,4 +957,8 @@ You can format the output in simple print statement. For example, here’s some 
     javascript:;
 
 At the end of this project make a list of the top 3 things you’ve learned about website development from learning web parsing.
+
+## Capstone Project
+
+It's time to put everything you learned over the past 11 months into motion! Create and code a passion project that encapsulates concepts that you’ve learned over the past 11 months. 
  
