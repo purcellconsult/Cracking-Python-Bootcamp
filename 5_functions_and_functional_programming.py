@@ -101,8 +101,8 @@ func(a=1, b=5, c=10)
 
 # Functional programming in python
 # --------------------------------
-# Functional programming is a paradigm. A coding paradigm is
-# There's various styles to programming like they're various style to fashion
+# Functional programming is a paradigm. A coding paradigm is a style to programming. 
+# There's various styles to programming like they're various style to fashion.
 # There's languages dedicated to various styles: Java, object oriented, Haskell function
 # python is mixed: it supports various paradigms such as imperative, oop, and functional
 # functional aspects in python: lambdas, map, filter, reduce
