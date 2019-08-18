@@ -1,10 +1,7 @@
-######################################
+#######################################
 # A simple dice rolling simulator.
 # A simple program that models dice
 # rolling in python.
-#
-#
-#
 #
 #
 # By Doug Purcell
