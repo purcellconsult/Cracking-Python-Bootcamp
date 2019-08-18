@@ -1,4 +1,4 @@
-# Descriptions of projects for Master Python Course
+# Descriptions of projects for The Cracking Python Bootcamp 
 
 The massive headline pretty much said it all. Anyhoo, below is a comprehensive summary of all of the ~~cool~~ coding projects that accompanies the Master Python course.
 
