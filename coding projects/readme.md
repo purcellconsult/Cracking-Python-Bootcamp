@@ -1,4 +1,4 @@
-# Descriptions of projects for The Cracking Python Bootcamp 
+# Descriptions of projects for Cracking Python Bootcamp 
 
 The massive headline pretty much said it all. Anyhoo, below is a comprehensive summary of all of the ~~cool~~ coding projects that accompanies the Cracking Python Bootcamp.
 
