@@ -1,5 +1,69 @@
-# Cracking-Python-Bootcamp
-A course that helps newbies master the core principles of one of the world's most popular programming languages, python.
+## Cracking Python Boot camp
+
+_The Cracking Python Bootcamp_ is a free programming course dedicated to those that have a yearning to learn how to code in python but don’t want to fork over $20,000 or so on a coding boot camp. It’s free, you’ll learn how to build practical things, and most all you’ll have fun along the way.
+
+This course was initially created for a friend of a friend, that became a friend. It was part of a 12 week mentorship to level up his python programming skills so that he can find work freelancing. He said great things about the course such as the projects being really fun to work through.
+
+There’s not many prerequisites except for basic proficiency in algebra and fundamental computing skills. More explicitly, to avoid getting frustrated early on you should know how to download/install software, be comfortable with text editors, and understand how to circumvent the jungle of the web. Other than that, everything else can be picked up along the way.
+
+## How This Course Is Designed
+
+  
+
+This course was built to be learned over a 12 week period. It provides python files which contains snippets of code along with mini projects so that you can apply your knowledge to something practical. In the last three weeks there will be no default projects. Instead, you’re suggested to work on a capstone project which in essence is a passion project that revolves around your interests.
+
+  
+
+The files in the root directory corresponds to the weekly lessons while the files in  `/coding projects` contains the project descriptions along with their solutions.
+
+There's currently no accompanying lessons of any kind. That may seem weird, but hear me out. The source code contains a plethora of comments (probably too many) which also serves as short learning aides. The code snippets are short and expressive enough to hopefully be _self documenting_.
+
+  For example, which one do you prefer, a or b?
+
+  a)
+
+    To create a variable in python you need to declare a variable name, followed by the equal sign which denotes the assignment operator, and then the value.
+
+  
+b)
+
+ 
+
+    ###############################
+     creating variables in python
+    
+    ###############################
+    
+      
+    a = 5
+    
+    b = 10
+    
+    c = 20
+
+ 
+Example b succinctly encapsulates the meaning of example _a_, but is less verbose. It’s suggested for the student to download the code, tinker with it, read through the comments, and search online for additional help when needed. Then, attempt the projects to build something in order to exercise your newfound knowledge.
+
+  
+
+To download the course contents, you can use the the following git command:
+
+    git clone https://github.com/purcellconsult/Cracking-Python-Bootcamp.git
+
+Alternatively, you can just click the green “Clone or download” button, and then Click Download ZIP.
+
+ 
+If you’ve new to python and need help getting up and running, view the [python installation tutorial.](https://github.com/purcellconsult/Python-Installation-Tutorial)
+
+In order to edit python files you can use either a simple text editor like Notepad or an integrated development environment (IDE) which are typically used by professional developers. The IDE that I recommend is [PyCharm](https://www.jetbrains.com/pycharm/download) which is free to use with the community edition
+
+  
+BTW, I do plan on creating accompanying video lessons but there’s currently no estimated turnaround time for that… _c'est la vie_.
+
+  
+
+Below is an outline of the python files and their associated projects that you can follow:
+
 
 
 | Learning Lessons | Projects  				|
