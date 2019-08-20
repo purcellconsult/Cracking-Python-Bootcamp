@@ -1,5 +1,7 @@
 ## Learn How to Code in Python in 12 Weeks By Building Fun Real World Projects 
 
+### #CrackingPython
+
 _The Cracking Python Bootcamp_ is a free programming course dedicated to those that have a yearning to learn how to code in python but don’t want to fork over $20,000 or so on a coding boot camp. It’s free, you’ll learn how to build practical things, and most all you’ll have fun along the way.
 
 Build fun real world projects such as:
