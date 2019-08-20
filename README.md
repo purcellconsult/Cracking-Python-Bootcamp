@@ -1,4 +1,4 @@
-## Learn How to Code in Python in 12 Weeks By Building Fun Real World Projects 
+# Learn How to Code in Python in 12 Weeks By Building Fun Real World Projects 
 
 ### #CrackingPython
 
