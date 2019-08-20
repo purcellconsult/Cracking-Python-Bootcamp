@@ -80,3 +80,40 @@ Below is an outline of the python files and their associated projects that you c
 |**Week Ten** <br>[**http_requests_options_10.py**](https://github.com/purcellconsult/Cracking-Python-Bootcamp/blob/master/http_requests_options_10.py#L1)<br>Learn how to make http requests in python with the requests, urllib, urllib3, and httplib2 libraries.|Start on your capstone project. This is a _freestyle_ coding project based off your interests. Make sure to assimilate elements that you learned over the past weeks into it.
 |**Week Eleven** <br>**[scrappy_spider_11.py](https://github.com/purcellconsult/Cracking-Python-Bootcamp/blob/master/scrappy_spider_11.py#L1)**<br>Learn how to create generators and iterators in python.|Work on your capstone project.
 |**Week Twelve**<br>[**generators_and_iterators_12**](https://github.com/purcellconsult/Cracking-Python-Bootcamp/blob/master/generators_and_iterators_12#L1)<br>Learn how to create generators and iterators in python.|Complete your capstone project.
+
+
+## How to Get Involved
+
+  
+ If you spot any typographical/grammatical errors or bugs then don’t be a bystander! You can bring any issues to my awareness by creating an [issue](https://github.com/purcellconsult/Cracking-Python-Bootcamp/issues) or a [pull request](https://help.github.com/en/articles/creating-a-pull-request). 
+
+  
+If you’ll like to create accompanying Slide decks to the lessons, suggest a new project, or have any other recommendations then do let me know. The best way to get in contact with me is to send an email: purcellconsult@gmail.com.
+
+Just make sure that the subject gives an indication that it’s about the _Cracking Python Bootcamp_ course.
+
+  
+## Spread The Joy of Free Education In 5 Ways
+
+  
+
+1.  Email your friends that’s interested in learning how to code in python this repository: [https://github.com/purcellconsult/Cracking-Python-Bootcamp](https://github.com/purcellconsult/Cracking-Python-Bootcamp)
+    
+2.  Share the repo on any programming communities you’re a member of. Use the same url as above.
+    
+3.  When you complete a project post it to Twitter or any social media channel you frequent with the hashtag: #crackingpython
+    
+4.  If you’re a software engineer then start a local meetup teaching students how to code in python using these course materials.
+    
+5.  If you have a blog, write a review about this course along with your progress.
+    
+
+  
+
+## How to Support
+
+  
+
+The best way to provide support is to pickup one or more copies of my first python book, _[Become a Python Developer](https://www.amazon.com/Become-Python-Developer-Wrestle-Defeat-ebook/dp/B07KX8RT4V)_ available on Amazon in digital and paperback formats. Not only will it help to reinforce the concepts taught in the _Cracking Python Bootcamp_, it also gives me the flexibility to keep producing quality programming tutorials and guides.
+
+ HAPPY CODING. GO FORTH AND BUILD SOMETHING GREAT IN PYTHON.
