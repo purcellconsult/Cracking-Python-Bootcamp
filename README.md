@@ -2,7 +2,7 @@
 
 ### #CrackingPython
 
-_The Cracking Python Bootcamp_ is a free programming course dedicated to those that have a yearning to learn how to code in python but don’t want to fork over $20,000 or so on a coding boot camp. It’s free, you’ll learn how to build practical things, and most all you’ll have fun along the way.
+_The Cracking Python Bootcamp_ is a free programming course dedicated to those that have a yearning to learn how to code in python but don’t want to fork over $20,000 or so on a coding boot camp. It's free, you'll learn how to build practical things, and most all you'll have tons of fun.
 
 Build fun real world projects such as:
 
@@ -24,15 +24,13 @@ Build fun real world projects such as:
 
 This course was initially created for a friend of a friend, that became a friend. It was part of a 12 week mentorship to level up his python programming skills so that he can find work freelancing. He said great things about the course such as the projects being really fun to work through.
 
-There’s not many prerequisites except for basic proficiency in algebra and fundamental computing skills. More explicitly, to avoid getting frustrated early on you should know how to download/install software, be comfortable with text editors, and understand how to circumvent the jungle of the web. Other than that, everything else can be picked up along the way.
+There's not many prerequisites except for basic proficiency in algebra and fundamental computing skills. More explicitly, to avoid getting frustrated early on you should know how to download/install software, be comfortable with text editors, and understand how to circumvent the jungle of the web. Other than that, everything else can be picked up along the way.
 
 ## How This Course Is Designed
 
   
 
 This course was built to be learned over a 12 week period. It provides python files which contains snippets of code along with mini projects so that you can apply your knowledge to something practical. In the last three weeks there will be no default projects. Instead, you’re suggested to work on a capstone project which in essence is a passion project that revolves around your interests.
-
-  
 
 The files in the root directory corresponds to the weekly lessons while the files in  `/coding projects` contains the project descriptions along with their solutions.
 
@@ -47,7 +45,6 @@ There's currently no accompanying lessons of any kind. That may seem weird, but 
   
 b)
 
- 
 
     ###############################
     
@@ -122,9 +119,9 @@ Just make sure that the subject gives an indication that it’s about the _Crack
     
 2.  Share the repo on any programming communities you’re a member of. Use the same url as above.
     
-3.  When you complete a project post it to Twitter or any social media channel you frequent with the hashtag: #crackingpython
+3.  When you complete a project post it to Twitter or any social media channel you frequent with the hashtag: #CrackingPython
     
-4.  If you’re a software engineer then start a local meetup teaching students how to code in python using these course materials.
+4.  If you're a software engineer then start a local meetup teaching students how to code in python using these course materials.
     
 5.  If you have a blog, write a review about this course along with your progress.
     
