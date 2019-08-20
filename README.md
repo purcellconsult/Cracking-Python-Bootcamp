@@ -18,7 +18,7 @@ Build fun real world projects such as:
     
 -   A virtual ATM Machine
     
--   A web parser for your local government
+-   A web parser for your state government site
 
 This course was initially created for a friend of a friend, that became a friend. It was part of a 12 week mentorship to level up his python programming skills so that he can find work freelancing. He said great things about the course such as the projects being really fun to work through.
 
