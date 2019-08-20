@@ -2,6 +2,24 @@
 
 _The Cracking Python Bootcamp_ is a free programming course dedicated to those that have a yearning to learn how to code in python but don’t want to fork over $20,000 or so on a coding boot camp. It’s free, you’ll learn how to build practical things, and most all you’ll have fun along the way.
 
+Build fun real world projects such as:
+
+-   A Text Based Calculator
+    
+-   A rolling dice simulator
+    
+-   An additive secret number guessing game
+    
+-   A Las Vegas Sports Calculator
+    
+-   A Game of Throne like text based fantasy game
+    
+-   A state lottery simulator
+    
+-   A virtual ATM Machine
+    
+-   A web parser for your local government
+
 This course was initially created for a friend of a friend, that became a friend. It was part of a 12 week mentorship to level up his python programming skills so that he can find work freelancing. He said great things about the course such as the projects being really fun to work through.
 
 There’s not many prerequisites except for basic proficiency in algebra and fundamental computing skills. More explicitly, to avoid getting frustrated early on you should know how to download/install software, be comfortable with text editors, and understand how to circumvent the jungle of the web. Other than that, everything else can be picked up along the way.
