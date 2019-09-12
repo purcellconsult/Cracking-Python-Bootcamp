@@ -1,16 +1,3 @@
-############################################
-# Requests site downloader in python
-# ----------------------------------
-#
-# Includes custom user agent, exception
-# handling, and automatic download retries.
-#
-# By Doug Purcell
-# http://www.purcellconsult.com
-#
-#
-############################################
-
 import requests
 from bs4 import BeautifulSoup
 from requests import RequestException, HTTPError, ConnectionError, URLRequired, TooManyRedirects
@@ -37,5 +24,8 @@ def download(url, tries=3):
         if tries > 0:
             # recursive call until tries is 0
             return download(url, tries - 1)
+        soup = None
     return soup
+
+
 
