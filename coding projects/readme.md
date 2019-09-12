@@ -19,20 +19,18 @@ addition
  - logarithm
 
 Since I didn't teach functions yet don't worry about making the code modular. Instead, just get the program to work. Here's some code to get you started:
+```python
+'''
+# addition operation
+'''
 
-    '''
+a1 = float(input('Addition. Enter first number '))
+a2 = float(input('Enter second number '))
+a3 = a1 + a2
+
+print(a1, '+', a2, '=', a3)
+```
     
-    addition operation
-    
-    '''
-    
-    a1 = float(input('Addition. Enter first number '))
-    
-    a2 = float(input('Enter second number '))
-    
-    a3 = a1 + a2
-    
-    print(a1, '+', a2, '=', a3)
 
 Also, here's a test case so that you can verify that the code works:
 
@@ -83,38 +81,42 @@ Write a program that asks the user to enter the number of games that they want t
   To read in random numbers use the randint function in the random module:
 
 
-
-    from random import randint
-    dice_result = randint(1, 6)
-
-  
+```python
+from random import randint
+dice_result = randint(1, 6)
+```
 
 To make the program pause for x amount of seconds use the sleep() function in the time module:
 
   
+```python
+from time import sleep
+sleep(3)
+```
 
-    from time import sleep
-    sleep(3)
 
   
 To keep track of the number of occurrences of each side of the dice, consider using the dictionary data structure:
 
-    dice_numbers = {
-      1: 0,
-      2: 0,
-      3: 0,
-      4: 0,
-      5: 0,
-      6: 0,
-    
-    }
+```python
+dice_numbers = {
+  1: 0,
+  2: 0,
+  3: 0,
+  4: 0,
+  5: 0,
+  6: 0,
 
+}
+```
   
 
 To update the dictionary you could use a conditional:
 
-      if dice_result == 1:
-      dice_numbers[1] += 1
+```python
+if dice_result == 1:
+    dice_numbers[1] += 1
+```
 
  
 
@@ -675,12 +677,13 @@ The Daily 3 lotto allows the player to pick any three numbers within the range o
     
 It’s really simple, and modeling the simulation of the three numbers in python is also simple. We can use the randint() function from random to do this. For example, if we want to pick a random number then we can do something like the following:
 
+```python
+from random import randint
         
-    >>> from random import randint
-        
-    >>> randint(0, 9)
-        
-    4
+randint(0, 9)  # a random integer from 0 to 9, e.g. 4
+
+```
+    
     
 The Daily 4 rules are exactly the same except it has four numbers instead of three. Write a python script that models the Daily 3 and Daily 4 in the California Lottery. After the user enters in their guess, the program should display a message letting the user know if they won or not. The winning numbers should also be displayed which should be stored in a list.
 
@@ -740,10 +743,13 @@ Use the [with statement in python](https://docs.python.org/3/reference/compound_
 
 An example of how to use it is listed below: 
 
-    DATA = 'sample_dataset'
-    with open(DATA) as file:
+```python
+DATA = 'sample_dataset'
+with open(DATA) as file:
     for line in file:
         pass
+```
+    
          
 Note,  for this project don’t use the built in [statistics module](https://docs.python.org/3/library/statistics.html).
 
@@ -801,20 +807,22 @@ The focal point of object oriented programming is to model real world objects, s
 
 ### Here's some sample input/output:
   
-
-        jack = Atm('Jack', '3282')  
-        jack.deposit(100)  
-        print(jack.get_transactions())  
-        jack.deposit(200)  
-        print(jack.get_transactions())  
-        jack.withdraw(10)  
-        print(jack.get_withdrawals())  
-        jack.deposit(100)  
-        print(jack.get_transactions())  
-        jack.withdraw(100)  
-        print(jack.get_withdrawals())  
-        print(jack.get_pin())  
-        print(jack.get_name())
+```python
+jack = Atm('Jack', '3282')  
+jack.deposit(100)  
+print(jack.get_transactions())  
+jack.deposit(200)  
+print(jack.get_transactions())  
+jack.withdraw(10)  
+print(jack.get_withdrawals())  
+jack.deposit(100)  
+print(jack.get_transactions())  
+jack.withdraw(100)  
+print(jack.get_withdrawals())  
+print(jack.get_pin())  
+print(jack.get_name())
+```
+        
     
     What's your name? jack
     Welcome to Your Virtual ATM Jack 
