@@ -47,19 +47,16 @@ There's currently no accompanying lessons of any kind. That may seem weird, but 
   
 b)
 
+```python
+###############################
+# creating variables in python
+###############################
 
-    ###############################
-    
-     creating variables in python
-    
-    ###############################
-    
-      
-    a = 5
-    
-    b = 10
-    
-    c = 20
+a = 5
+b = 10
+c = a
+```
+
 
  
 Example b succinctly encapsulates the meaning of example _a_, but is less verbose. It’s suggested for the student to download the code, tinker with it, read through the comments, and search online for additional help when needed. Then, attempt the projects to build something in order to exercise your newfound knowledge.
@@ -75,7 +72,7 @@ Alternatively, you can just click the green “Clone or download” button, and 
  
 If you’ve new to python and need help getting up and running, view the [python installation tutorial.](https://github.com/purcellconsult/Python-Installation-Tutorial)
 
-In order to edit python files you can use either a simple text editor like Notepad or an integrated development environment (IDE) which are typically used by professional developers. The IDE that I recommend is [PyCharm](https://www.jetbrains.com/pycharm/download) which is free to use with the community edition
+In order to edit python files, you can use either a simple text editor like Notepad or an integrated development environment (IDE) which are typically used by professional developers. The IDE that I recommend is [PyCharm](https://www.jetbrains.com/pycharm/download) which is free to use with the community edition
 
   
 BTW, I do plan on creating accompanying video lessons but there’s currently no estimated turnaround time for that… _c'est la vie_.
